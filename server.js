@@ -23,6 +23,6 @@ app.get('/api/hello', (req, res) => {
 // }
 
 app.listen(PORT, function() {
-    console.log(config.app.bcClientSecret);
+    // console.log(config.app.bcClientSecret); // testing config file
     console.log('App listening on PORT ' + PORT);
 });

@@ -1,0 +1,22 @@
+{
+    "server": {
+        "host": "localhost",
+        "port": 3333
+    },
+        "yar": {
+        "cookieOptions": {
+            "password": "<a strong password for encoding cookies>"
+        }
+    },
+    "app": {
+        "bcClientId": "",
+        "bcClientSecret": "",
+        "bcAuthUrl": "https://login.bigcommerce.com/oauth2/token",
+        "bcApiUrl": "https://api.bigcommerce.com/",
+        "appUrl": "https://f6d1d0cd.ngrok.io",
+        "authUri": "/app/auth",
+        "loadUri": "/app/load",
+        "uninstallUri": "/app/uninstall",
+        "webhookUri": "/app/webhook"
+    }
+}
