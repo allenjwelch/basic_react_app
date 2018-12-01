@@ -2,7 +2,6 @@ const express = require('express');
 const bodyParser = require('body-parser');
 // const path = require('path');
 
-
 const readConfig = require('read-config');
 const config = readConfig('./config.json');
 
@@ -23,6 +22,6 @@ app.get('/api/hello', (req, res) => {
 // }
 
 app.listen(PORT, function() {
-    // console.log(config.app.bcClientSecret); // testing config file
+    console.log(config.app.bcClientSecret); // testing config file
     console.log('App listening on PORT ' + PORT);
 });
