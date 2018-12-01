@@ -13,6 +13,9 @@ To duplicate you will need the following things properly installed on your compu
 - nodemon
 - read-config
 
+_Additional Client Dependencies_
+- react-router-dom
+
 ## Installation
 * `git clone <repository-url>` this repository
 * change into the new directory
